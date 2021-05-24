@@ -1,0 +1,481 @@
+/* CSS Parameters Reset */
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+/* Applies box-sizing property to every element */
+* {
+    box-sizing: border-box;
+    font-family: "Ubuntu", Helvetica, Arial, sans-serif;
+}
+  
+/* Setting body properties */
+body {
+  margin: 0;
+  font-family: Arial;
+}
+  
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+/* Setting heading div properties */
+.home {
+  border: 1px black solid;
+  text-align: center;
+  padding: 50px;
+  height: 160px;
+  background-image: url("images/title_banner.jpg");
+  object-fit: fill;
+}
+
+.home-text-link {
+  text-decoration: none;
+}
+
+/* Heading text properties */
+.home-text {
+    font-size: 50px;
+    color: white;
+}
+
+/* Back Button properties */
+.round:hover {
+  background-color: #ddd;
+  color: black;
+}
+  
+.previous {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: white;
+  color: black;
+  font-size: 30px;
+}
+  
+.round {
+  border-radius: 30%;
+  margin-left: 20px;
+}
+
+/* Navigation bar properties */
+.topnav {
+  overflow: hidden;
+  background-image: url("images/background.jpg");
+}
+
+.previous {
+  float: left; 
+}
+
+/* Cart Symbol properties */
+.cart-link {
+    text-decoration: none;
+    color: #ccc;
+}
+
+.fa {
+    float: right;
+    display: block;
+    padding-right: 20px;
+}
+
+.fa:hover {
+    color: red;
+}
+
+.home-images {
+  width: 100%;
+}
+
+/* Content row properties */
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+  background-image: url("images/background.jpg");
+}
+
+/* Create two equal columns that floats next to each other */
+.column-item {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+  
+/* Clear floats after the columns */
+.row-item:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Create two equal columns that sit next to each other */
+.column {
+  -ms-flex: 50%; /* IE10 */
+  flex: 50%;
+  max-width: 40%;
+  padding: 0 4px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.column-product {
+  -ms-flex: 33%;
+  flex: 30;
+  padding: 0 4px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+/* Landing page image properties */
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+  border-radius: 25px;
+}
+
+.column-product img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+  padding-top: 10px;
+}
+
+.column-item {
+    padding: 10px;
+    text-align: left;
+}
+
+/* Item description properties */
+.item-description {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.about-item {
+    font-weight: bold;
+}
+
+/* Horizontal line properties */
+hr.solid {
+  border-top: 3px solid #bbb;
+}
+
+.item-insert {
+    text-decoration: none;
+}
+
+.item-price {
+    font-size: 30px;
+    color: red;
+}
+
+/* Button properties */
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button3 {
+    background-color: #f44336;
+}
+
+.button5 {
+  background-color: white;
+  color: black;
+  border: 1px solid #555555;
+}
+  
+.button5:hover {
+  background-color: #555555;
+  color: white;
+}
+
+/* Product card properties */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  margin-bottom: 30px;
+  border-radius: 25px;
+}
+  
+.prod-desc-colour {
+  color: white;
+}
+
+/* Price text properties */
+.price {
+  color: red;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+  
+.card button:hover {
+  opacity: 0.7;
+}
+
+.cart-table {
+    overflow-x: auto;
+}
+
+/* Cart table properties */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid black;
+}
+  
+th, td {
+  text-align: center;
+  padding: 8px;
+  vertical-align: middle;
+  max-width: 100%;
+  border: 1px solid black;
+}
+
+th {
+  background-color: #0d1a53;
+  color: white;
+}
+
+tr {
+    height: 50px;
+}
+
+.mid-col {
+    max-width: 200px;
+}
+
+.table-img-1 {
+    max-height: 100px;
+    max-width: 100px;
+}
+
+.table-img-2 {
+  max-height: 120px;
+  max-width: 120px;
+}
+
+.table-amt-type {
+  text-align: right;
+}
+
+.table-total {
+  background-color: green;
+  color: white;
+}
+
+/* Pay now button properties */
+.pay-now {
+  float: right;
+  background-color: #f44336;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.pay-now-div {
+  padding-top: 25px;
+  padding-right: 100px;
+}
+
+/* Checkout form properties */
+.checkout {
+  font-family: Arial;
+  font-size: 17px;
+  box-sizing: border-box;
+}
+
+.row-final {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+.row-checkout {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  margin: 0 -16px;
+}
+  
+.col-25 {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+}
+
+.col-50 {
+  -ms-flex: 50%; /* IE10 */
+  flex: 50%;
+}
+  
+.col-75 {
+  -ms-flex: 75%; /* IE10 */
+  flex: 75%;
+}
+
+.col-25,
+.col-50,
+.col-75 {
+  padding: 0 16px;
+}
+  
+/* Credit card symbol properties */
+.fa-user, .fa-envelope,
+.fa-address-card-o, .fa-institution,
+.fa-cc-visa, .fa-cc-amex,
+.fa-cc-mastercard, .fa-cc-discover{
+  float: none;
+  padding: 0;
+}
+
+.checkout-price-colour {
+  color: black;
+}
+
+.container {
+  background-color: #f2f2f2;
+  padding: 5px 20px 15px 20px;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+}
+  
+input[type=text] {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+label {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  display: block;
+}
+  
+.icon-container {
+  margin-bottom: 20px;
+  padding: 7px 0;
+  font-size: 24px;
+}
+
+.btn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  width: 100%;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 17px;
+}
+  
+.fa-shopping-cart {
+  float: none;
+  padding: 0;
+}
+
+.btn:hover {
+  background-color: #45a049;
+}
+
+.hr-checkout{
+  border: 1px solid lightgrey;
+}
+  
+.checkout-price {
+  float: right;
+  color: grey;
+}
+
+/* Footer properties */
+.footer {
+  height: 100px;
+  border: 1px black solid;
+  background-image: url("images/title_banner.jpg");
+}
+
+.footer-text {
+  text-align: center;
+  padding-top: 40px;
+  font-size: 20px;
+  color: white;
+}
+
+/* Responsive layout - makes a one column-layout instead of two columns */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 100%;
+  }
+}
+
+/* Responsive layout - makes one column stack on top of the other instead of next to it */
+@media screen and (max-width: 500px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 50%;
+    max-width: 100%;
+  }
+}
+
+/* Responsive layout - makes one column stack on top of the other instead of next to it */
+@media screen and (max-width: 920px) {
+  .column-item {
+    width: 100%;
+  }
+}
+
+/* Makes checkout page responsive */
+@media (max-width: 800px) {
+  .row-checkout, .row-final {
+    flex-direction: column-reverse;
+  }
+
+  .col-25 {
+    margin-bottom: 20px;
+  }
+}
